@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Intro Cond Light; 
+    src: url('Intro-Cond-Light-Free.otf'); 
+} 
 html{
 	height: 100%;
 }
@@ -29,12 +33,18 @@ a{
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-    animation: fadein 8s;
-    -moz-animation: fadein 8s; 
-    -webkit-animation: fadein 8s;
-    -o-animation: fadein 8s;
+    animation: fadein 3.5s;
+    -moz-animation: fadein 3.5s; 
+    -webkit-animation: fadein 3.5s;
+    -o-animation: fadein 3.5s;
 }
-
+#about p{
+    font-family: Intro Cond Light;
+}
+.resize{
+    width: 20px;
+    height: 20px;
+}
 @keyframes fadein {
     from {
         opacity:0;
@@ -67,4 +77,3 @@ a{
         opacity: 1;
     }
 }
->>>>>>> origin/master

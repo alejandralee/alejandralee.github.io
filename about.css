@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Intro Cond Light; 
+    src: url('Intro-Cond-Light-Free.otf'); 
+} 
+@font-face{
+    font-family: Intro Cond Black;
+    src: url('Intro-Cond-Black-Free.otf');
+}
+html{
+	height: 100%;
+}
+body{
+	text-align: center;
+	background-image: url("bg.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+a{
+    text-decoration: none;
+}
+#content img.center {
+	display: block;
+	margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#buttons img{
+	width: 75px;
+	height: 75px;
+	margin-top: 10px;
+	margin-left: 100px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#about p{
+    font-family: Intro Cond Light;
+    font-size: 15pt;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    font-style: bold;
+}
+
+#me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resize{
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
