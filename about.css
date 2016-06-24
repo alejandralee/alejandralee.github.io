@@ -34,6 +34,18 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 }
+.center:hover{
+    opacity: .8;
+}
+.email:hover{
+    opacity: .8;
+}
+.linkedin:hover{
+    opacity: .8;
+}
+.resume:hover{
+    opacity: .8;
+}
 #about p{
     font-family: Intro Cond Light;
     font-size: 15pt;
