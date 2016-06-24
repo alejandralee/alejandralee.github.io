@@ -38,13 +38,13 @@ a{
     opacity: .8;
 }
 .email:hover{
-    opacity: .8;
+    opacity: .6;
 }
 .linkedin:hover{
-    opacity: .8;
+    opacity: .6;
 }
 .resume:hover{
-    opacity: .8;
+    opacity: .6;
 }
 #about p{
     font-family: Intro Cond Light;
